@@ -61,7 +61,7 @@ setup_motiv_deps_via_zypper() {
     sudo zypper refresh
     sudo zypper update
 
-    sudo zypper --non-interactive install gcc gcc-c++ gcc-fortran cmake-full git-core qtutilities-qt6 freeglut
+    sudo zypper --non-interactive install gcc gcc-c++ gcc-fortran cmake-full git-core qt6-base-devel freeglut-devel
 }
 
 check_for_install_success() {
